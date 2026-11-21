@@ -3,6 +3,7 @@
 #include <string>
 #include <cstring>
 #include <limits>
+
 using namespace std;
 struct DiskBooking {
     int bookingId;
@@ -323,3 +324,4 @@ int main() {
     } while (choice != 6);
     return 0;
 }
+
